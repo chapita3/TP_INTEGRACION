@@ -248,5 +248,8 @@ public class Colaborador extends Usuario {
         return tareas;
     }
 
-
+    public void setTareaActiva(boolean tareaActiva)
+    {
+        this.tareaActiva = tareaActiva;
+    }
 }
