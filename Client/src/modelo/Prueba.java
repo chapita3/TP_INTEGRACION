@@ -10,7 +10,7 @@ public class Prueba {
 
     public static void main(String[] args) {
         
-        BaseDeDatos bdd = new BaseDeDatos();
+/*        BaseDeDatos bdd = new BaseDeDatos();
         
         Administrador admin = new Administrador("nombre", "email", "telefono", "id", "contrasena","a");
         admin.setBdd(bdd);
@@ -49,7 +49,7 @@ public class Prueba {
        
         System.out.println("\n 3.2.3  (Arreglado) \n");
         //EL ADMIN SOLICITA LAS TAREAS DE TODOS LOS COLABORADORES 3.2.3
-        System.out.println("EL ADMIN SOLICITA LAS TAREAS DE TODOS LOS COLABORADORES \n" + admin.solicitarTareasEnCursoColaboradores());
+        System.out.println("EL ADMIN SOLICITA LAS TAREAS DE TODOS LOS COLABORADORES \n" + admin.solicitarTareasEnCursoColaboradores(false,admin.getBdd().getColaboradores().get(0)));
         //3.2.3 Funciona!
         
         
@@ -110,5 +110,5 @@ public class Prueba {
         //EL ADMIN SOLICITA EL INFORME DE UN COLABORADOR EN UN DETERMINADO INTERVALO 3.2.2 
         System.out.println(" " + admin.solicitarInformeColaboradorIntervalo(admin.getBdd().getColaboradores().get(0),x, y));
         //3.2.2 Funciona!!
-    }
-}
+    }*/
+}}
